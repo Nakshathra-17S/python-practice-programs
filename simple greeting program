@@ -1,0 +1,11 @@
+
+# Write a Python program that asks the user for their name and age, then prints a personalized greeting message. Use both the + operator and f-strings for output.
+name = input("enter your name: ")
+#asking the user to enter their name and storing it in a variable called name
+age = input("enter your age:")
+#asking the usre to enter their age and storing it in a variable called age
+print(f"hello! {name} you are {age} years old"   *3)
+#using an f-string printing the users name and age with a greeting
+
+print("Hello " + name + "! You are " + age + " years old.")
+#using string concatenation to print the users name and age with a greeting
